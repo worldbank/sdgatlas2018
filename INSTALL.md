@@ -61,6 +61,7 @@ devtools::install_github("worldbank/wbgviz", subdir = "wbgdata")
 devtools::install_github("worldbank/wbgviz", subdir = "wbgcharts")
 devtools::install_github("worldbank/wbgviz", subdir = "wbgmaps")
 devtools::install_github("worldbank/wbgviz", subdir = "wbggeo")
+```
 
 9. As of now `ggtreemap` doesn't work with the latest treemapify, so in RStudio console:
 
