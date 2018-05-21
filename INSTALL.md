@@ -28,16 +28,20 @@ docker ps
 docker exec -it <container-id> bash
 ```
 
-5. install some system packages. From with the docker shell
+5. install some system packages. From with the docker shell (if pasting these as a block fails, try pasting one-by-one)
 
 ```
 apt-get update
+
 # for mogrify
 apt-get install imagemagick php-imagick -y
+
 # for proj4
 apt-get install libproj-dev proj-data proj-bin -y
+
 # for rgdal
 apt-get install libgdal-dev python-gdal gdal-bin -y
+
 # for pdftools
 apt-get install libpoppler-cpp-dev -y
 ```
