@@ -44,7 +44,7 @@ Contains any data which was not available via the World Bank or another API.
 
 A complete installation / replication guide is given in [INSTALL.md](INSTALL.md).
 
-This repository depends on the [`wbgviz`](https://github.com/worldbank/sdgatlas2018) custom R packages.
+This repository depends on the [`wbgviz`](https://github.com/worldbank/wbgviz) custom R packages.
 
 Some parts depend a submodule of restricted data that we cannot make public.
 
