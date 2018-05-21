@@ -93,3 +93,11 @@ Incorrect/ambiguous source given.
 ### With history
 
 None.
+
+## Credits
+
+Full credits for the Atlas are extensive, and included in the book/PDF. Credits for the code in this repository are as follows (stats captured when we froze changes and make public):
+- @econandrew (227 commits  245,288 ++  123,955 --)
+- @seladore (124 commits  6,023 ++  2,460 --)
+- @tkb (120 commits  76,780 ++  5,720 --)
+- @drkarthi (111 commits  310,041 ++  9,523 --)
