@@ -4,6 +4,8 @@ Depending on your own system setup you may not need to do all of this. This assu
 
 If you already have some sort of system, possibly running R already, you should probably start from step 2, 5, or 7. The library installs etc will vary depending on your package manager. We may eventually set up a docker image for the project to avoid this.
 
+**WARNING: The first three steps create an insecure RStudio Server instance with default password that anyone can log in to. This purely for ease of instruction. If you follow these steps from the beginning, you should secure your instance behind a firewall and change the RStudio password.**
+
 1. If necessary create your VM, for example I used the default AWS EC2 image.
 - allocate public IP address
 - open incoming TCP port 8787 in AWS console security group
