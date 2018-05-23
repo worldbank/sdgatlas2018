@@ -178,7 +178,7 @@ fig_sdg15_protected_map <- function(year = 2016) {
   ) 
 }
 
-# TODO: ideally we should get this from the API rather than parsing PDFs!
+# Ideally we should get this from the API rather than parsing PDFs!
 read_redlist_pdf <- function(filename) {
   raw <- pdf_text(filename)
   skips <- c(7, 0, 0, 0, 0, 0)

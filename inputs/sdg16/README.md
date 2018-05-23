@@ -4,7 +4,7 @@
 
 URL: http://www.unhcr.org/statistics/mid2017stats.zip
 
-Linked from: http://popstats.unhcr.org/en/overview
+Linked from & terms of use: http://popstats.unhcr.org/en/overview
 
 ## Scores-Global-Indicators-of-Regulatory-Governance-2016.xlsx
 

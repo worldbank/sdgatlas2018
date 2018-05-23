@@ -4,7 +4,7 @@
 
 URL: https://washdata.org/data/country/WLD/download
 
-Linked from: https://washdata.org/data
+Linked from & terms of use: https://washdata.org/data
 
 ## wpd_piped_water.xlsx
 
@@ -12,7 +12,7 @@ Contact Luis Andres <landres@worldbank.org>
 
 ## JMP estimates wealth quintiles for WDI (from UNICEF).xlsx
 
-Communicated directly from UNICEF. Contact Haruna Kashiwase <hkashiwase@worldbank.org>
+Communicated directly from UNICEF - terms of use may apply. Contact Haruna Kashiwase <hkashiwase@worldbank.org>
 
 
 

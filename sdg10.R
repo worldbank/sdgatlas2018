@@ -120,7 +120,7 @@ fig_sdg10_50pc_median_vs_gini_gnipc <- function() {
 }
 
 fig_sdg10_b40_explainer <- function(country = "PER", years = c(2011,2016)){
-#TODO: pull from API, this is a quick hack to see if this looks right.
+  # The data for this explainer was revised, so exact replication is not possible.
   
   # SI.SPR.PCAP
   indicators <- c(

@@ -588,7 +588,7 @@ fig_sdg3_uhc_service_index <- function(year = 2015) {
 fig_sdg3_proportion_10pc <- function(years = c(2000,2005,2010)){
   indicator = "SH.UHC.OOPC.10.ZS"
   
-  #TODO - update this data section when correct aggregates are available via API
+  # This is now available in the API as the indicator code above.
 
   wbg_uhc_regions<- tribble(
     ~code, ~iso3c,

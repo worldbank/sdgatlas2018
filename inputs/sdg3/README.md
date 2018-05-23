@@ -4,13 +4,13 @@
 
 URL: https://esa.un.org/unpd/wpp/DVD/Files/1_Indicators%20(Standard)/EXCEL_FILES/3_Mortality/WPP2017_MORT_F04_2_DEATHS_BY_AGE_MALE.xlsx
 
-Linked from: https://esa.un.org/unpd/wpp/Download/Standard/Mortality/
+Linked from & terms of use: https://esa.un.org/unpd/wpp/Download/Standard/Mortality/
 
 ## WPP2017_MORT_F04_2_DEATHS_BY_AGE_FEMALE.xlsx
 
 URL: https://esa.un.org/unpd/wpp/DVD/Files/1_Indicators%20(Standard)/EXCEL_FILES/3_Mortality/WPP2017_MORT_F04_3_DEATHS_BY_AGE_FEMALE.xlsx
 
-Linked from: https://esa.un.org/unpd/wpp/Download/Standard/Mortality/
+Linked from & terms of use: https://esa.un.org/unpd/wpp/Download/Standard/Mortality/
 
 ## UHCEXCEL.xlsx
 
