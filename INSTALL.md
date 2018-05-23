@@ -4,6 +4,8 @@ Depending on your own system setup you may not need to do all of this. This assu
 
 If you already have some sort of system, possibly running R already, you should probably start from step 2, 5, or 7. The library installs etc will vary depending on your package manager. We may eventually set up a docker image for the project to avoid this.
 
+**WARNING: The first three steps create an insecure RStudio Server instance with default password that anyone can log in to. This purely for ease of instruction. If you follow these steps from the beginning, you should secure your instance behind a firewall and change the RStudio password.**
+
 1. If necessary create your VM, for example I used the default AWS EC2 image.
 - allocate public IP address
 - open incoming TCP port 8787 in AWS console security group
@@ -26,16 +28,20 @@ docker ps
 docker exec -it <container-id> bash
 ```
 
-5. install some system packages. From with the docker shell
+5. install some system packages. From with the docker shell (if pasting these as a block fails, try pasting one-by-one)
 
 ```
 apt-get update
+
 # for mogrify
 apt-get install imagemagick php-imagick -y
+
 # for proj4
 apt-get install libproj-dev proj-data proj-bin -y
+
 # for rgdal
 apt-get install libgdal-dev python-gdal gdal-bin -y
+
 # for pdftools
 apt-get install libpoppler-cpp-dev -y
 ```
@@ -61,6 +67,7 @@ devtools::install_github("worldbank/wbgviz", subdir = "wbgdata")
 devtools::install_github("worldbank/wbgviz", subdir = "wbgcharts")
 devtools::install_github("worldbank/wbgviz", subdir = "wbgmaps")
 devtools::install_github("worldbank/wbgviz", subdir = "wbggeo")
+```
 
 9. As of now `ggtreemap` doesn't work with the latest treemapify, so in RStudio console:
 
