@@ -12,10 +12,11 @@ and academic datasets.
 
 These other datasets are archived within these folders, by chapter / goal.
 
-Data from the World Bank API and other data from World Bank sources is covered
+All data from the World Bank API, and other data from World Bank sources is covered
 by the World Bank's default CC-BY 4.0 license, unless otherwise specified.
-In cases of external data sets, we refer you to the source links provided in
+In cases of external data sets, refer to the source links provided in
 relevant README.md in each `sdgXX` folder in `inputs/` to establish terms of use.
+
 You should also consult the source line in the relevant figure (either in the code
 block, or the PDF publication), which will usually give additional high level 
 source information (e.g. author names or a related publication link).
